@@ -2,11 +2,12 @@ dependencies:
   crsf:
     dependencies: []
     source:
-      path: /home/samuel/racer-firmware/components/crsf
+      path: C:\Users\capts\Documents\code\racer-firmware\components\crsf
       type: local
     version: '*'
   espressif/servo:
-    component_hash: 309c787e48224255fad458cfd9ab86ea53f0fdad1c5e4f6f0c50309990b17108
+    component_hash: 
+      309c787e48224255fad458cfd9ab86ea53f0fdad1c5e4f6f0c50309990b17108
     dependencies:
     - name: idf
       require: private
@@ -18,7 +19,7 @@ dependencies:
   idf:
     source:
       type: idf
-    version: 5.5.1
+    version: 5.5.2
 direct_dependencies:
 - crsf
 - espressif/servo

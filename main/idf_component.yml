@@ -5,7 +5,7 @@ dependencies:
   espressif/servo: "^0.1.0"
 
   crsf:
-    path: ../components/crsf
+    path: "../components/crsf"
 
   # # Other ways to define dependencies
   #
